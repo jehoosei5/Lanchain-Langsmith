@@ -3,3 +3,6 @@ langchain_openai
 python-dotenv
 langsmith
 langchain_core
+langchain_community
+beautifulsoup4
+langchain_pinecone

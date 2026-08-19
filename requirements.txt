@@ -6,3 +6,4 @@ langchain_core
 langchain_community
 beautifulsoup4
 langchain_pinecone
+langchain_classic

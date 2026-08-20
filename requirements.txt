@@ -7,3 +7,4 @@ langchain_community
 beautifulsoup4
 langchain_pinecone
 langchain_classic
+langchain_groq

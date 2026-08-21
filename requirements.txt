@@ -9,3 +9,4 @@ langchain_pinecone
 langchain_classic
 langchain_groq
 langserve
+sse_starlette

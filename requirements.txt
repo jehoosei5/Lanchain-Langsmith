@@ -11,3 +11,5 @@ langchain_groq
 langserve
 sse_starlette
 langgraph
+arxiv==1.4.8
+wikipedia

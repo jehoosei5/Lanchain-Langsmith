@@ -4,6 +4,8 @@ python-dotenv
 langsmith
 langchain_core
 langchain_community
+langchain-text-splitters
+faiss-cpu
 beautifulsoup4
 langchain_pinecone
 langchain_classic

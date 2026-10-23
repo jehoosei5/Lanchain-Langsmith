@@ -13,8 +13,22 @@ model_list:
       api_key: os.environ/AZURE_OPENAI_API_KEY
       api_version: os.environ/AZURE_OPENAI_API_VERSION
 
+  - model_name: main-model-fallback
+    litellm_params:
+      model: azure/gpt-5.1
+      api_base: os.environ/AZURE_OPENAI_ENDPOINT
+      api_key: os.environ/AZURE_OPENAI_API_KEY
+      api_version: os.environ/AZURE_OPENAI_API_VERSION
+
 litellm_settings:
   drop_params: true
+
+cache: true
+cache_params:
+  type: local
+
+success_callback: ["langsmith"]
+failure_callback: ["langsmith"]
 
 router_settings:
   num_retries: 2
